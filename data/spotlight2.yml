@@ -1,9 +1,9 @@
 ####################### Spotlight #########################
-style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
-title : "Spotlight"
+style: "style5 orient-left content-align-left image-position-center onscroll-image-fade-in"
+title : "Luna Di Miele"
 content: |
-  This is also a <strong>Spotlight</strong> element, and it's here because this demo would look a bit empty with just one spotlight. Like all spotlights, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
-button: 
-  label: "Learn More"
-  link: "#"
-image: "images/spotlight02.jpg"
+  <h4>Settembre 2021</h4>
+  Un piccolo <a href="https://www.chaletgrumer.it/it">chalet di lusso</a> in Alto Adige, situato sull’Altopiano del Renon a 1.100 metri d'altezza sul livello del mare per trascorrere i nostri primi giorni da marito e moglie.
+
+
+image: "images/chalet.jpg"
