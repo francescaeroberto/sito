@@ -1,0 +1,12 @@
+<!-- Nav -->
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<nav id="nav">
+    <ul class="links">
+        <li class="active"><a href='{{ "/" | relLangURL }}'>{{ .Site.Title }}</a></li>
+        {{ if .IsTranslated }}
+        {{ range .AllTranslations }}
+        <li {{if eq ($.Site.Language) (.Language)}}class="active"{{end}}><a href='{{ .Permalink }}'>{{ .Language.LanguageName }}</a></li>
+        {{ end }}
+        {{ end }}
+    </ul>
+</nav>
